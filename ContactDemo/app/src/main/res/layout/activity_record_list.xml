@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_record_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.contact.contactdemo.Activity.RecordListActivity"
+    android:orientation="vertical"
+    android:background="#fff">
+    <include layout="@layout/title_bar"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/record_lv"
+        android:dividerHeight="1dp"
+        android:divider="#ccc"/>
+</LinearLayout>
