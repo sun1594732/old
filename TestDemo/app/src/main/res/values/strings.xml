@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestDemo</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_four">FourActivity</string>
+    <string-array name="positions">
+        <item>东城区</item>
+        <item>昌平区</item>
+    </string-array>
+</resources>
